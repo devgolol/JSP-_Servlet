@@ -1,0 +1,16 @@
+package ex20io;
+
+public class E06FileWriterStream
+{
+	public static void main(String[] args)
+	{
+		try
+		{
+			char ch1 = 'A';
+			char ch2 = 'Z';
+		} catch (Exception e)
+		{
+			// TODO: handle exception
+		}
+	}
+}

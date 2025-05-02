@@ -1,0 +1,38 @@
+package ex20io;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+import jdk.jfr.events.FileWriteEvent;
+
+public class E09StringReader
+{
+
+	public static void main(String[] args)
+	{
+		try
+		{
+			BufferedReader in = new BufferedReader(
+					new FileReader("src/ex20io/string.txt"));
+			
+			String str;
+			while(true)
+			{
+				str = in.readLine();
+				if(str==null)
+				{
+					break;
+				}
+				System.out.println(str);
+			}
+			
+			
+		} catch (Exception e)
+		{
+			// TODO: handle exception
+		}
+	}
+
+}

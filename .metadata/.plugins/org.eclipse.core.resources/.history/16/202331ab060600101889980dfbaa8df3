@@ -1,0 +1,16 @@
+package ex04controlstatement;
+
+import java.util.Scanner;
+
+public class E02Switch
+{
+
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("숫자를 입력하세요");
+		int iNum = scanner.nextInt();
+		System.out.println("입력한 숫자는"+iNum);
+	}
+
+}

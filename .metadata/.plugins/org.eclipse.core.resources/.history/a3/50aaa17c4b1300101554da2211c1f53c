@@ -1,0 +1,9 @@
+package ex20io;
+
+public class E05FilterDataBufferStream
+{
+	public static void main(String[] args)
+	{
+		String src = "src/ex20io/dataBufferStream.bin";
+	}
+}

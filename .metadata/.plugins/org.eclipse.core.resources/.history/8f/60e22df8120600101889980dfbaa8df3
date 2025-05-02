@@ -1,0 +1,36 @@
+package ex04controlstatement;
+
+public class E03While
+{
+
+	public static void main(String[] args)
+	{
+		int i = 1;
+		while(i<10) {
+			System.out.println("변수i="+i);
+			i++;
+		}
+		
+		int sum = 0;
+		int j = 1;
+		while(j<=10)
+		{
+			sum += j;
+			j++;
+		}
+		System.out.println("1~10까지의 합 sum"+sum);
+		
+		int dan = 2;
+		while (dan<=9)
+		{
+			int su = 1;
+			while (su<=9)
+			{
+				System.out.printf("%-2d*%-2d=%2d",dan,su,(dan*su));
+				System.out.println(" ");
+				su++;
+			}
+		}
+	}
+
+}

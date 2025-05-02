@@ -1,0 +1,20 @@
+package ex20io;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class E04FilterBufferFileCopy
+{
+
+	public static void main(String[] args)
+	{
+		try
+		{
+			InputStream in = new FileInputStream("src/ex20io/npp.8.5.8.portable.x64.zip")
+		} catch (Exception e)
+		{
+			// TODO: handle exception
+		}
+	}
+
+}

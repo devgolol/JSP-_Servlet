@@ -1,0 +1,18 @@
+package ex20io;
+
+public class E07FileReaderStream
+{
+
+	public static void main(String[] args)
+	{
+		try
+		{
+			char[] cbuff = new char[10];
+			int readCnt;
+		} catch (Exception e)
+		{
+			// TODO: handle exception
+		}
+	}
+
+}

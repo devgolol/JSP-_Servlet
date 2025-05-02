@@ -1,0 +1,22 @@
+package ex04controlstatement;
+
+import java.io.IOException;
+
+public class E01If01
+{
+
+	public static void main(String[] args) throws IOException
+	{
+		int num = 10;
+		
+		if(num%2)
+		{
+			System.out.println("잘못된 조건식입니다.");
+		}
+		else
+		{
+			sy
+		}
+	}
+
+}

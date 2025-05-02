@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="true"/>
+		<list key="findhistory">
+			<item value="execute()"/>
+			<item value="sta"/>
+			<item value="stamp"/>
+			<item value="AgeErrorException"/>
+			<item value=" "/>
+			<item value="fut"/>
+			<item value="searchInfo"/>
+			<item value="showAllDate"/>
+			<item value="FruitBuyer3"/>
+			<item value="FruitSeller3"/>
+			<item value="E06FruitSalesMain3.java"/>
+			<item value="FruitSales3"/>
+			<item value="APPLE_PRICE"/>
+			<item value="FruitBuyer"/>
+			<item value="FruitSeller"/>
+		</list>
+		<list key="replacehistory">
+			<item value="AgeErrorException2"/>
+			<item value="FruitBuyer6"/>
+			<item value="FruitSeller6"/>
+			<item value="FruitBuyer5"/>
+			<item value="FruitSeller5"/>
+			<item value="FruitSeller4"/>
+			<item value="apple_price"/>
+			<item value="APPLE_PRICE"/>
+			<item value="FruitBuyer2"/>
+			<item value="FruitSeller2"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,23 @@
+package ex20io;
+
+import java.io.FileReader;
+import java.io.Reader;
+
+public class E07FileReaderStream
+{
+
+	public static void main(String[] args)
+	{
+		try
+		{
+			char[] cbuff = new char[10];
+			int readCnt;
+			
+			Reader in = new FileReader("src/ex20io/alpha.txt");
+		} catch (Exception e)
+		{
+			// TODO: handle exception
+		}
+	}
+
+}

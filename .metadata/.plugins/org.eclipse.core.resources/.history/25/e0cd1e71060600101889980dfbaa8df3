@@ -1,0 +1,12 @@
+package ex04controlstatement;
+
+public class E02Switch
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

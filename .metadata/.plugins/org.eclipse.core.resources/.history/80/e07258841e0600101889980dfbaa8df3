@@ -1,0 +1,90 @@
+package ex04controlstatement;
+
+public class E03While
+{
+
+	public static void main(String[] args)
+	{
+		int i = 1;
+		while(i<10) {
+			System.out.println("변수i="+i);
+			i++;
+		}
+		
+		int sum = 0;
+		int j = 1;
+		while(j<=10)
+		{
+			sum += j;
+			j++;
+		}
+		System.out.println("1~10까지의 합 sum"+sum);
+	
+		int total = 0;
+		int k = 1;
+		while(k <= 100)
+		{
+			if (k%3==0 || k%4==0)
+			{
+				total += k;
+				System.out.println("k="+k);
+			}
+			k++;
+		}
+		
+		
+		
+//----------------------------------------------		
+//		int dan = 2;
+//		while (dan<=9)
+//		{
+//			int su = 1;
+//			while (su<=9)
+//			{
+//				System.out.printf("%-2d*%-2d=%2d",dan,su,(dan*su));
+//				System.out.println(" ");
+//				su++;
+//			}
+//			System.out.println();
+//			dan++;
+//		}
+		
+		int dan1 = 2;
+		while (dan1<=9)
+		{
+			int su1 = 1;
+			while (su1<=9)
+			{
+				System.out.printf("%-2d*%-2d=%2d",dan1,su1,(dan1*su1));
+				su1++;
+				
+			}
+			dan1++;
+			System.out.println("\t");
+			
+		}
+
+		
+		int row = 1;
+		while (row<=4)
+		{
+			int col = 1;
+			while(col<=4)
+			{
+				if(row+col==5)
+				{
+					System.out.print("1 ");
+				}
+				else
+				{
+					System.out.print("0 ");
+				}
+				col++;
+			}
+			System.out.println();
+			row++;
+		}
+
+	}
+
+}

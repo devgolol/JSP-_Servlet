@@ -1,0 +1,24 @@
+package ex20io;
+
+import java.io.FileWriter;
+import java.io.Writer;
+
+public class E06FileWriterStream
+{
+	public static void main(String[] args)
+	{
+		try
+		{
+			char ch1 = 'A';
+			char ch2 = 'Z';
+			
+			Writer out = new FileWriter("src/ex20io/alpha.txt")
+			
+			
+			
+		} catch (Exception e)
+		{
+			// TODO: handle exception
+		}
+	}
+}
